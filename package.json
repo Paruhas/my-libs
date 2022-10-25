@@ -1,11 +1,12 @@
 {
   "dependencies": {
-    "decimal.js": "^10.3.1"
+    "dayjs": "^1.11.6",
+    "decimal.js": "^10.3.1",
+    "uuid": "^9.0.0"
   },
   "name": "mylibs-decimaljs",
   "version": "1.0.0",
   "main": "Decimal.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js --ext js"
